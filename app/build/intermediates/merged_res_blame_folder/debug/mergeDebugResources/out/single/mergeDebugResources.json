@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.example.autoscroll.app-debug-33:/drawable_rounded_background.xml.flat",
+        "source": "com.example.autoscroll.app-main-35:/drawable/rounded_background.xml"
+    },
+    {
+        "merged": "com.example.autoscroll.app-debug-33:/drawable_ic_launcher.xml.flat",
+        "source": "com.example.autoscroll.app-main-35:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.autoscroll.app-debug-33:/xml_backup_rules.xml.flat",
+        "source": "com.example.autoscroll.app-main-35:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.autoscroll.app-debug-33:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.autoscroll.app-main-35:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.autoscroll.app-debug-33:/drawable_glass_background.xml.flat",
+        "source": "com.example.autoscroll.app-main-35:/drawable/glass_background.xml"
+    },
+    {
+        "merged": "com.example.autoscroll.app-debug-33:/drawable_glass_button_background.xml.flat",
+        "source": "com.example.autoscroll.app-main-35:/drawable/glass_button_background.xml"
+    },
+    {
+        "merged": "com.example.autoscroll.app-debug-33:/drawable_main_gradient_background.xml.flat",
+        "source": "com.example.autoscroll.app-main-35:/drawable/main_gradient_background.xml"
+    },
+    {
+        "merged": "com.example.autoscroll.app-debug-33:/xml_accessibility_service_config.xml.flat",
+        "source": "com.example.autoscroll.app-main-35:/xml/accessibility_service_config.xml"
+    },
+    {
+        "merged": "com.example.autoscroll.app-debug-33:/layout_layout_floating_widget.xml.flat",
+        "source": "com.example.autoscroll.app-main-35:/layout/layout_floating_widget.xml"
+    },
+    {
+        "merged": "com.example.autoscroll.app-debug-33:/layout_activity_main.xml.flat",
+        "source": "com.example.autoscroll.app-main-35:/layout/activity_main.xml"
+    }
+]
