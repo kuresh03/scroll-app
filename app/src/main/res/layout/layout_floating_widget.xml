@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/glass_background"
+    android:padding="12dp"
+    android:gravity="center"
+    android:elevation="8dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/tvTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5s"
+            android:textColor="@color/glass_text_primary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="16dp"/>
+
+        <ImageButton
+            android:id="@+id/btnClose"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:tint="@color/glass_text_secondary"
+            android:contentDescription="Close" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <android.widget.Button
+            android:id="@+id/btnDecrease"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="-"
+            android:textSize="20sp"
+            android:background="@drawable/glass_button_background"
+            android:textColor="@color/glass_text_primary"
+            android:layout_marginEnd="8dp"/>
+
+        <android.widget.Button
+            android:id="@+id/btnIncrease"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="+"
+            android:textSize="20sp"
+            android:background="@drawable/glass_button_background"
+            android:textColor="@color/glass_text_primary"/>
+    </LinearLayout>
+
+    <android.widget.Button
+        android:id="@+id/btnStartStop"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:background="@drawable/glass_button_background"
+        android:textColor="@color/glass_text_primary"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <android.widget.Button
+        android:id="@+id/btnPreset"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Preset: Custom"
+        android:textSize="12sp"
+        android:background="@drawable/glass_button_background"
+        android:textColor="@color/glass_text_secondary"/>
+
+</LinearLayout>
